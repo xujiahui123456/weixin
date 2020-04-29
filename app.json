@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#219bf3",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "徐家汇个人主页",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh":true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "debug":true,
+  "tabBar":{
+    "color":"#444",
+    "selectedColor":"#219bf3",
+    "backgroundColor":"#e0e0e0",
+    "list":[
+      {
+        "text":"Home",
+        "pagePath":"pages/index/index",
+        "selectedIconPath":"./tabs/home-active.png",
+        "iconPath":"./tabs/home.png"
+      },
+      {
+        "text":"log",
+        "pagePath":"pages/logs/logs",
+        "selectedIconPath":"./tabs/message-active.png",
+        "iconPath":"./tabs/message.png"
+      }
+    ]
+  }
+}
